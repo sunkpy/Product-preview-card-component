@@ -1,0 +1,82 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    color: hsl(228, 12%, 48%);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+}
+
+section {
+    margin: auto;
+    width: 660px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.section-1 img{
+    height: 500px;
+    width: 100%;
+    border-radius: 15px 0 0 15px;
+
+}
+
+.section-2 div {
+    padding: 10px 0 ;
+}
+
+.title h2{
+    font-weight: 500;
+}
+
+.brand-name h1, .price h1{
+    font-family: 'Fraunces', serif;
+}
+
+h1 {
+    color: black;
+    font-size: 35px;
+}
+
+.price h1 {
+    color: hsl(158, 36%, 37%);
+}
+
+.price p {
+    text-decoration: line-through;
+    margin-left: 25px;
+}
+
+.section-2 {
+    margin: 15px 35px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    line-height: 1.5;
+}
+
+.add-to-cart .box{
+    padding: 20px 70px;
+    display: flex;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 10px;
+}
+
+.add-to-cart p {
+    margin-left: 10px;
+    color: white;
+}
